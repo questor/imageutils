@@ -1,0 +1,9 @@
+
+PROJECT(imageutils)
+
+INCLUDE_DIRECTORIES(".")
+
+FILE(GLOB HEADERS "*.h")
+FILE(GLOB SOURCES "*.cpp")
+
+ADD_LIBRARY(imageutils ${HEADERS} ${SOURCES})
